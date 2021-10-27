@@ -8,9 +8,20 @@ while (i < 3) {
   println('hi');
   i++;
 }
+hi
+hi
+hi
 ```
 
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
+
+function getEvenSum(max){
+   for(var i=0;i<=max;i++){ 
+   if(i%2==0){ 
+   sum+=i;
+   }
+}
+
 
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
 
